@@ -1,0 +1,21 @@
+.pagebackground{
+    background-color:#1bb1ec;
+}
+
+.fieldset{
+    background-color: #dde1e7;
+    font-family:verdana
+}
+#movebox {
+    position:absolute;
+    margin-left: 30%;
+    }
+
+.inputmargin{
+    margin-left: 40px;
+    float: inline-end;
+}
+
+#paste{
+    margin-top: 0%;
+}

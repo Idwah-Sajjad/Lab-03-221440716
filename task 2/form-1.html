@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <Title>Application Form</Title>
+        <link rel="stylesheet" href="css/style_1.css">
+    </head>
+    <body class="pagebackground">
+        
+        <form action="/action_page.php">
+            <fieldset class="fieldset" id="movebox">
+                <Legend>Application Form</Legend>
+                <label for="Full Name*">Full Name:</label>
+                <input type="text" id="fname" name="fname" class="inputmargin"><br>
+                <label for="Email Address">Email Address:</label>
+                <input type="text" id="email" name="email" class="inputmargin"><br>
+                <label for="Gender">Gender</label><br>
+                <label for="Male"> Male</label>
+                <input type="radio" id="Male" name="Male" value="Male">
+                <label for="Female"> Female</label>
+                <input type="radio" id="Female" name="Female" value="Female"><br>
+       
+
+
+                <label for="Nationality">Nationality:</label>
+                <select name="Nationality" id="Nationality">
+                <option value="-Select-">-Select-</option>
+                <option value="Karachi">Karachi</option>
+                <option value="Islamabad">Islamabad</option>
+                <option value="Lahore">Lahore</option>
+                </select><br>
+            
+                <p>Skills</p>
+                <label for="Asp.net"> Asp.net</label>
+                <input type="radio" id="Asp.net" name="Asp.net" value="Asp.net">
+                <label for="jQuery"> jQuery</label>
+                <input type="radio" id="jQuery" name="jQuery" value="jQuery"><br>
+                <label for="MVC"> MVC</label>
+                <input type="radio" id="MVC" name="MVC" value="MVC">
+                <label for="SQL Server"> SQL Server</label>
+                <input type="radio" id="SQL Server" name="SQL Server" value="SQL Server"><br>
+
+                <p>Post Applying For</p>
+                <label for="Trainee"> Trainee</label>
+                <input type="radio" id="Trainee" name="Trainee" value="Trainee">
+                <label for="Software Engineer"> Software Enginner</label>
+                <input type="radio" id="Software Engineer" name="Software Engineer" value="Software Engineer"><br>
+                <label for="Team Leader"> Team Leader</label>
+                <input type="radio" id="Team Leader" name="Team Leader" value="Team Leader">
+                <label for="Project Manager"> Project Manager</label>
+                <input type="radio" id="Project Manager" name="Project Manager" value="Project Manager"><br>
+
+                <label for="Upload Resume">Upload Resume:</label>
+                <input type="file" id="myFile" name="filename" class="inputmargin"><br><br>
+           
+            
+                <label for="Paste your resume">Paste your resume:</label>
+                <textarea id="Paste your resume" name="Paste your resume" rows="4" cols="50" class="inputmargin"></textarea><br><br>
+                <label for="Notify me the status via email"> Notify me the status via email</label>
+                <input type="radio" id="Notify me the status via email" name="Notify me the status via email" value="Notify me the status via email"><br>
+            
+                <label for="I agree to the terms and conditions"> I agree to the terms and conditions</label>
+                <input type="radio" id="I agree to the terms and conditions" name="I agree to the terms and conditions" value="I agree to the terms and conditions"><br>
+
+                <input type="submit" value="Submit">
+                <input type="submit" value="Reset">
+
+            
+            </fieldset>
+        </form> 
+    </body>
+
+</html>
